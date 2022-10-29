@@ -6,24 +6,24 @@ public class TvShow {
 
     public TvShow() {
         boxWithACar = (int) (Math.random() * 3) + 1;
-        totalGame=0;
-        totalWins=0;
+        totalGame = 0;
+        totalWins = 0;
     }
 
-    public void newShow (){
+    public void newShow() {
         boxWithACar = (int) (Math.random() * 3) + 1;
     }
 
-    public int openEmptyBox (int participantSelect){
+    public int openEmptyBox(int participantSelect) {
         int openedBox;
         do {
             openedBox = (int) (Math.random() * 3) + 1;
-        } while (openedBox==participantSelect || openedBox==boxWithACar);
+        } while (openedBox == participantSelect || openedBox == boxWithACar);
         return openedBox;
     }
 
-    public void resultsOfTheShow (int finalChoice){
-        if (finalChoice==boxWithACar) {
+    public void resultsOfTheShow(int finalChoice) {
+        if (finalChoice == boxWithACar) {
             totalWins++;
         }
         totalGame++;
