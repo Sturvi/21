@@ -1,9 +1,6 @@
 public class Participant {
     int fieldChoice;
 
-    public Participant(String name) {
-        fieldChoice = (int) (Math.random() * 3) + 1;
-    }
 
     public Participant() {
         fieldChoice = (int) (Math.random() * 3) + 1;
