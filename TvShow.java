@@ -2,7 +2,7 @@ public class TvShow {
     int boxWithACar;
     int totalGame;
     int totalWins;
-    //int participantSelect;
+
 
     public TvShow() {
         boxWithACar = (int) (Math.random() * 3) + 1;

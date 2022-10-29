@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Participant [] participant = new Participant [10000000];
+        Participant [] participant = new Participant [100000];
         TvShow tvShow = new TvShow();
         for (int i = 0; i < participant.length; i++) {
             participant[i]=new Participant();
